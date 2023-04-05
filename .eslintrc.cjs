@@ -46,7 +46,7 @@ module.exports = {
 		},
 	},
 	rules: {
-		'function-paren-newline': ['error', 'consistent'],
+		'function-paren-newline': 'off',
 		endOfLine: 'off',
 		indent: 'off',
 		semi: ['error', 'never'],
