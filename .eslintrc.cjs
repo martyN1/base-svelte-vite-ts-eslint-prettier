@@ -46,6 +46,8 @@ module.exports = {
 		},
 	},
 	rules: {
+		'endOfLine': 'off',
+		'indent': 'off',
 		semi: ['error', 'never'],
 		'arrow-body-style': ['error', 'as-needed'],
 		'prefer-arrow-callback': ['error', { allowNamedFunctions: false, allowUnboundThis: true }],
