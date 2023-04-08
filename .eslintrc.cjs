@@ -46,6 +46,10 @@ module.exports = {
 		},
 	},
 	rules: {
+		'no-shadow': 'off',
+		'@typescript-eslint/no-shadow': 'off',
+		'prefer-const': 'off',
+		'no-console': 'off',
 		'function-paren-newline': 'off',
 		endOfLine: 'off',
 		indent: 'off',
